@@ -22,7 +22,7 @@ from chatgpt_client_for_qa_and_moderation import ChatGPTClient
 from moderation_client import ModerationResponse
 
 # Bot's token for authentication
-DISCORD_TOKEN = 'MTE2MTI3NDk1NDYwMDQxOTMzOQ.GIjVWw.MN9mAWbkv4wLq_nus2vGpGnOAd9fUixMJe07XY'
+DISCORD_TOKEN = 'YOUR-TOKEN-HERE'
 
 # Initialize the Discord client
 discord_client = discord.Client()
