@@ -1,7 +1,7 @@
 import discord
 
 # Bot's token for authentication
-discord_token = 'MTE1OTA4MTg2NzU2ODQ5MjYwNg.GUP_jh.69S5RyGpvHkD6TfsPmRhfUYetnFH3B75sNu208'
+discord_token = 'YOUR-TOKEN-HERE'
 
 # Name of the channel the bot should monitor and interact with
 channel_to_watch = 'q-and-a'
