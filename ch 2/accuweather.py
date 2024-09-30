@@ -29,6 +29,6 @@ def get_weather(api_key, city):
         print("Location not found.")
 
 if __name__ == "__main__":
-    api_key = "M3ZcJ79YCqYdG6CDOrlcLT4NaIgUPhqG"
+    api_key = "YOUR-TOKEN-HERE"
     city = input("Enter your city: ")
     get_weather(api_key, city)
