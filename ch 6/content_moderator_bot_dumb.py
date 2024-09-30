@@ -1,7 +1,7 @@
 import discord
 
 # Bot's token for authentication
-discord_token = 'MTE2MTI3NDk1NDYwMDQxOTMzOQ.GIjVWw.MN9mAWbkv4wLq_nus2vGpGnOAd9fUixMJe07XY'
+discord_token = 'YOUR-TOKEN-HERE'
 
 # Banned word to monitor in messages
 banned_word = 'puppies'
