@@ -3,13 +3,13 @@ from slack_sdk.errors import SlackApiError
 from datetime import datetime, timezone
 
 # Define your Slack API token
-SLACK_BOT_TOKEN = "xoxb-5687039969424-5655905048503-b5DgqygQE617R7uoUrrcX3KI"
+SLACK_BOT_TOKEN = "YOUR-TOKEN-HERE"
 
 # Initialize a WebClient instance
 client = WebClient(token=SLACK_BOT_TOKEN)
 
 # Define your channel ID
-channel_id = "C05MD9XCRDH"
+channel_id = "CHANNEL-ID-HERE"
 
 # Define start and end time in UTC
 start_time_utc = datetime(2023, 8, 3, 10, 0, tzinfo=timezone.utc)
