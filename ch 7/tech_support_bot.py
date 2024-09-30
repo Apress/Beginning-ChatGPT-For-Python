@@ -29,7 +29,7 @@ import discord
 from chatgpt_client_for_qa_and_moderation import ChatGPTClient
 
 # Bot's token for authentication
-DISCORD_TOKEN = 'MTE1OTA4MTg2NzU2ODQ5MjYwNg.GUP_jh.69S5RyGpvHkD6TfsPmRhfUYetnFH3B75sNu208'
+DISCORD_TOKEN = 'YOUR-TOKEN-HERE'
 
 # Name of the channel the bot should monitor and interact with
 CHANNEL_TO_WATCH = 'q-and-a'
