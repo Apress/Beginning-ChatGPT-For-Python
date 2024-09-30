@@ -40,7 +40,7 @@ def main():
     openai_api_key = os.getenv("OPENAI_API_KEY")
 
     # Folder containing the MP3 files to be transcribed
-    mp3_folder_path = "/Users/Desktop/output"  # Replace with your MP3 folder path
+    mp3_folder_path = "/PATH/TO/FOLDER"  # Replace with your MP3 folder path
 
     # Transcribe MP3 files
     transcribe_mp3_files(openai_api_key, mp3_folder_path)
