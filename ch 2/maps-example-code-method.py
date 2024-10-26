@@ -35,7 +35,7 @@ payload = {
 # Define headers
 headers = {
     "Content-Type": "application/json",
-    "X-Goog-Api-Key": "your-google-api-key",
+    "X-Goog-Api-Key": "YOUR_API_KEY",
     "X-Goog-FieldMask": "routes.duration,routes.distanceMeters,routes.polyline.encodedPolyline"
 }
 
