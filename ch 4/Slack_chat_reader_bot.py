@@ -3,7 +3,7 @@ from slack_sdk.errors import SlackApiError
 from datetime import datetime, timezone
 
 # Define your Slack API token
-SLACK_BOT_TOKEN = "YOUR-TOKEN-HERE"
+SLACK_BOT_TOKEN = "YOUR_SLACK_API_TOKEN"
 
 # Initialize a WebClient instance
 client = WebClient(token=SLACK_BOT_TOKEN)
