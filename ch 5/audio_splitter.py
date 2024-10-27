@@ -14,7 +14,7 @@ segment_length_ms = 10 * 60 * 1000  # 10 minutes in milliseconds
 segments = [audio[i:i+segment_length_ms] for i in range(0, len(audio), segment_length_ms)]
 
 # Output directory for saving segments
-output_directory = "/Users/Desktop/output"
+output_directory = "/path/to/output"
 
 # Ensure output directory exists, create it if necessary
 os.makedirs(output_directory, exist_ok=True)
